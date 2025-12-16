@@ -1,6 +1,4 @@
-/* ---------------------------
-   GENERAL PAGE STYLES
----------------------------- */
+
 body {
     margin: 0;
     padding: 0;
@@ -28,9 +26,7 @@ a {
     font-weight: bold;
 }
 
-/* ---------------------------
-   HEADER / NAVIGATION
----------------------------- */
+
 .site-header {
     background: #222;
     color: white;
@@ -50,9 +46,7 @@ a {
     color: #4db8ff;
 }
 
-/* ---------------------------
-   HERO SECTION (HOME PAGE)
----------------------------- */
+
 .hero {
     text-align: center;
     padding: 120px 20px;
@@ -65,9 +59,7 @@ a {
     margin-bottom: 10px;
 }
 
-/* ---------------------------
-   FEATURES SECTION
----------------------------- */
+
 .features {
     display: flex;
     justify-content: center;
@@ -84,9 +76,7 @@ a {
     text-align: center;
 }
 
-/* ---------------------------
-   ABOUT PAGE
----------------------------- */
+
 .about-section {
     padding: 40px 20px;
     text-align: center;
@@ -117,9 +107,7 @@ button.btn {
     width: 100%;
 }
 
-/* ---------------------------
-   WORKOUTS PAGE
----------------------------- */
+
 .workouts-section {
     padding: 40px 20px;
     text-align: center;
@@ -139,9 +127,7 @@ button.btn {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-/* ---------------------------
-   LOGIN & REGISTER FORMS
----------------------------- */
+
 .form-section {
     text-align: center;
     padding: 40px 20px;
@@ -151,9 +137,7 @@ button.btn {
     margin-top: 15px;
 }
 
-/* ---------------------------
-   FOOTER
----------------------------- */
+
 footer {
     background: #222;
     color: white;
@@ -162,9 +146,7 @@ footer {
     margin-top: 40px;
 }
 
-/* ---------------------------
-   RESPONSIVE DESIGN
----------------------------- */
+
 @media (max-width: 768px) {
     .features, .workout-list {
         flex-direction: column;
@@ -175,3 +157,4 @@ footer {
         padding: 80px 10px;
     }
 }
+
