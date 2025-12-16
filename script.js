@@ -1,6 +1,4 @@
-// ================================
-// CONTACT FORM VALIDATION
-// ================================
+
 const contactForm = document.getElementById("contactForm");
 
 if (contactForm) {
@@ -28,9 +26,7 @@ if (contactForm) {
 
 
 
-// ================================
-// LOGIN FORM VALIDATION
-// ================================
+
 const loginForm = document.getElementById("loginForm");
 
 if (loginForm) {
@@ -62,9 +58,7 @@ if (loginForm) {
 
 
 
-// ================================
-// REGISTER FORM VALIDATION
-// ================================
+
 const registerForm = document.getElementById("registerForm");
 
 if (registerForm) {
@@ -100,3 +94,4 @@ if (registerForm) {
         registerForm.reset();
     });
 }
+
