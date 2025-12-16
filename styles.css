@@ -1,0 +1,177 @@
+/* ---------------------------
+   GENERAL PAGE STYLES
+---------------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+.btn {
+    display: inline-block;
+    background: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ---------------------------
+   HEADER / NAVIGATION
+---------------------------- */
+.site-header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header nav a {
+    color: white;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.site-header nav a:hover {
+    color: #4db8ff;
+}
+
+/* ---------------------------
+   HERO SECTION (HOME PAGE)
+---------------------------- */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1') no-repeat center/cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------
+   FEATURES SECTION
+---------------------------- */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.feature-box {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* ---------------------------
+   ABOUT PAGE
+---------------------------- */
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-section {
+    padding: 40px 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button.btn {
+    width: 100%;
+}
+
+/* ---------------------------
+   WORKOUTS PAGE
+---------------------------- */
+.workouts-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.workout-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.workout-card {
+    background: white;
+    padding: 20px;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* ---------------------------
+   LOGIN & REGISTER FORMS
+---------------------------- */
+.form-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.form-section form {
+    margin-top: 15px;
+}
+
+/* ---------------------------
+   FOOTER
+---------------------------- */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* ---------------------------
+   RESPONSIVE DESIGN
+---------------------------- */
+@media (max-width: 768px) {
+    .features, .workout-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero {
+        padding: 80px 10px;
+    }
+}
